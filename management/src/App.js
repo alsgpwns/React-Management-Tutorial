@@ -33,6 +33,7 @@ class App extends Component {
     return(
       <div>
        {
+         
          customers.map(c => {
            return (
            <Customer
